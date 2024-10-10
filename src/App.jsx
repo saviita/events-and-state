@@ -1,5 +1,7 @@
 
+import Square from "./square/Square";
+
 const App = () => {
-  return  <h1>React</h1>;
+  return  <Square></Square>;
 };
 export default App;
