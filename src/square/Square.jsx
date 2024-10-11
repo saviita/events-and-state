@@ -6,7 +6,8 @@ const Square = () => {
 
     return (
         <>
-        <StyledDiv color={color}></StyledDiv>
+        <StyledDiv $color={color}></StyledDiv>
+        {/* Se usa $ porque no es un atributo de html sino una propiedad para dar estilos */}
         <button onClick = {() => changeColor(color, setColor)}>Change Color</button>
         </>
     )
