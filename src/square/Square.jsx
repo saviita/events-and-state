@@ -1,7 +1,7 @@
 import { useState } from "react"
 import {StyledDiv} from './square.styles'
 
-const Square = () => {
+const Square = ({value}) => {
     const [color, setColor] = useState(true)
 
     return (

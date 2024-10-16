@@ -1,9 +1,5 @@
-import { useState } from "react"
 
-
-const Counter = () => {
-    const [value, setValue] = useState(0)
-
+const Counter = ({value, setValue}) => {
     return (
     <>
     <h1>{value}</h1>
